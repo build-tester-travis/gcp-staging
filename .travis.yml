@@ -1,0 +1,10 @@
+#test
+os: linux
+dist: focal
+
+jobs:
+  include:
+    - stage: deploy
+      name: "Deploy to GCP"
+      script:
+        - echo "test"
